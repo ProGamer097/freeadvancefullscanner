@@ -184,7 +184,7 @@ brew install curl
 ### SSL Errors
 bash
 # Use HTTP instead
-./scanner.sh -d http://example.com -c "id"
+
 
 # Or modify script to add -k flag to curl
 
@@ -211,20 +211,6 @@ done
 bash
 # After scan, review promising targets
 cat scan_results_*/500_errors.txt
-
-# Test manually with different commands
-./scanner.sh -d promising-target.com -c "whoami"
-./scanner.sh -d promising-target.com -c "hostname"
-
-
-### Focus on Subdomains
-bash
-# Common vulnerable subdomains
-./scanner.sh -d api.example.com -c "id"
-./scanner.sh -d app.example.com -c "id"
-./scanner.sh -d dashboard.example.com -c "id"
-./scanner.sh -d admin.example.com -c "id"
-
 
 
 ## 👤 Author
