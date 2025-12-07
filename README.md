@@ -128,29 +128,6 @@ scan_results_20241208_153045/
 
 ---
 
-## 💡 Useful Commands
-
-### System Info
-bash
-./scanner.sh -d target.com -c "id"
-./scanner.sh -d target.com -c "whoami"
-./scanner.sh -d target.com -c "hostname"
-./scanner.sh -d target.com -c "pwd"
-./scanner.sh -d target.com -c "uname -a"
-
-
-### File Operations
-bash
-./scanner.sh -d target.com -c "ls -la"
-./scanner.sh -d target.com -c "cat /etc/passwd"
-./scanner.sh -d target.com -c "cat package.json"
-
-
-### Node.js Info
-bash
-./scanner.sh -d target.com -c "node -v"
-./scanner.sh -d target.com -c "npm -v"
-
 
 ---
 
