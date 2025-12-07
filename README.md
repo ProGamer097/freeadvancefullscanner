@@ -20,11 +20,6 @@
 
 ### Installation
 
-bash
-# Download scripts
-curl -O https://raw.githubusercontent.com/yourusername/scanner/main/scanner.sh
-curl -O https://raw.githubusercontent.com/yourusername/scanner/main/multi_scanner.sh
-
 # Make executable
 chmod +x scanner.sh multi_scanner.sh
 
